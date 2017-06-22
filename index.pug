@@ -1,0 +1,38 @@
+html
+	head
+		title Align
+		link(rel="stylesheet" href="../css/style.css")
+		link(rel="stylesheet" href="../css/index.css")
+	body
+
+		//-.fullscreen-bg
+			video.fullscreen-video(loop='' muted='' autoplay='')
+				
+
+		.container
+			header
+				img#logo(src="../img/Placeholderlogo.png")
+				nav
+					if user
+						
+						div
+							a(href= "/") Home
+						div
+							a(href= "/bloggers") Bloggers
+						div
+							a(href= '/about') About
+						div
+							a(href='/contact') Contact Us
+				
+			.indexcontainer
+				main
+					h1 Blogged
+					p We love Bloggers, find them all on one site
+				//-.minicontainer
+					h4 
+					ul
+						li Matches based on preferences
+						li Get fun assignments with every meeting
+						li Always go to parties with a party
+			footer
+				h4 &copy; 2017 Blogged Inc. All rights reserved.

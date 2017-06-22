@@ -1,0 +1,77 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-color: darkblue;
+	background: #1e5799; /* Old browsers */
+	background: -webkit-linear-gradient(#1e5799 0%, #207cca 29%, #2989d8 50%, #7db9e8 100%);
+	background: -o-linear-gradient(#1e5799 0%, #207cca 29%, #2989d8 50%, #7db9e8 100%);
+	background: linear-gradient(#1e5799 0%, #207cca 29%, #2989d8 50%, #7db9e8 100%);
+}
+
+@font-face {
+	font-family: 'Gotham Book Regular';
+	src: url('../fonts/Gotham Book Regular.otf');
+}
+
+@font-face {
+	font-family: 'Youth Beauty';
+	src: url('../fonts/Youth Beauty.ttf')
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Gotham Book Regular';
+}
+
+body {
+	color: white;
+	overflow: hidden;
+}
+
+.container {
+	border: none;
+	padding: 50px;
+}
+
+.indexcontainer h1 {
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 10px;
+	color: #122647;
+	z-index: 10;
+}
+
+header nav div {
+	display: inline-block;
+}
+
+nav {
+	float: right;
+}
+
+a {
+	border: 1px solid darkblue;
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	margin-right: 10px;
+	background-color: #3e64a3;
+}
+
+a:hover {
+	color: red;
+}
+
+footer {
+	text-align: center;
+}
+
+footer h4 {
+	font-weight: normal;
+}
+
+#logout {
+	background-color: black;
+}
